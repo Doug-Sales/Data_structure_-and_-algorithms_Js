@@ -54,7 +54,7 @@ class DoublyLinkedList extends LinkedList {
                 node.next = node;
                 previous.next = node;
                 current.prev = node;
-                node.ŕev = previous;
+                node.prev = previous;
             }
             this._count++;
             return true
